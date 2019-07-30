@@ -3,3 +3,4 @@ server:
 
 custom:
   env: dev
+  name: 2
