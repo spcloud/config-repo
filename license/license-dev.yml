@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://10.20.29.131:33061/crscore?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
     username: root
-    password: "{cipher}f026e5cb9a8aab9a55df5c0786f98c078e0c357db81bcedef591d774bab8bc44"
+    password: '{cipher}f026e5cb9a8aab9a55df5c0786f98c078e0c357db81bcedef591d774bab8bc44'
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
