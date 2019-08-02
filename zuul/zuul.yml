@@ -8,6 +8,8 @@ eureka:
       defaultZone: http://localhost:8881/eureka/
 
 zuul:
+  ignoredServices: '*'
+  prefix: /api
   routes:
-    license: /license2/**
-    organization: /organization2/**
+    license: /license/**
+    organization: /organization/**
