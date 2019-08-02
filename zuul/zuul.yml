@@ -6,3 +6,8 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://localhost:8881/eureka/
+
+zuul:
+  routes:
+    license: /license2/**
+    organization: /organization2/**
