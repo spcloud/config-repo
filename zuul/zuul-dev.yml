@@ -13,3 +13,17 @@ zuul:
   routes:
     license: /license/**
     organization: /organization/**
+
+ribbon:
+  ReadTimeout: 6000
+  ConnectTimeout: 6000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000
+
+
